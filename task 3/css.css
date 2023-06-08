@@ -1,0 +1,80 @@
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  background: #087be1b2;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
+.mainField {
+  width: 600px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px 5px 10px;
+}
+
+.input {
+  width: 300px;
+  border: solid;
+  border-color: #087be1b2;
+  border-width: 4px;
+}
+
+.chat {
+  margin: 5px 10px 10px 10px;
+  min-height: 350px;
+  border: solid;
+  border-color: #087be1b2;
+  border-width: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatmessages {
+  max-width: 300px;
+  min-width: 100px;
+  min-height: 30px;
+  border: solid;
+  border-color: #52aeff;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.request {
+  justify-content: flex-end;
+}
+
+.answer {
+  justify-content: flex-start;
+}
